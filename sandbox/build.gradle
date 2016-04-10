@@ -2,6 +2,8 @@ group 'tuition'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = 'ru.stqa.ptf.sandbox.MyFirstProgram'
 
 sourceCompatibility = 1.5
 
